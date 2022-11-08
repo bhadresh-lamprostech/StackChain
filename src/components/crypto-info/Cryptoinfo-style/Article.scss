@@ -1,0 +1,96 @@
+.crypto-article {
+  min-width: 65%;
+  // position: sticky;
+  top: 9rem;
+  overflow: hidden;
+}
+.leftcolumn {
+  height: 75vh;
+  // float: left;
+  // width: 100%;
+  // border: 1px solid black;
+  // margin-left: 20%;
+  // margin-right: 10%;
+  // padding-left: 1rem;
+  // padding-right: 1rem;
+  // overflow: hidden;
+  // position: sticky;
+  // top: 9rem;
+  margin-top: 30px;
+  // padding-bottom: 10px;
+  // overflow-x: hidden;
+  // overflow: hidden;
+  // overflow-y:visible;
+  // padding-top: 4px;
+  // display: inline-block;
+  // border-top: none;
+  // border-left: none;
+  // border-right: none;
+  // border-bottom: none;
+}
+.leftcolumn::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Fake image */
+.fakeimg {
+  box-shadow: rgba(0, 0, 0, 0.3) 5px 8px 12px;
+  background-color: white;
+  margin: 10px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.crypto-img {
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+}
+
+/* Add a card effect for articles */
+.article {
+  height: 100%;
+  padding: 10px;
+  padding-top: 0%;
+  text-align: justify;
+  font-size: small;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  // position: sticky;
+  top: 9rem;
+  h2 {
+    // position: sticky;
+    top: 0px;
+    // background-color: #ffffff;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #005edd;
+    font-size: 1.5rem;
+  }
+  button {
+    background-color: #005edd;
+    border: 0;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+}
+
+// .crypto-btn {
+//   padding-left: 5px;
+//   padding-top: 10px;
+// }
+// .readmore {
+//   padding-left: 8px;
+//   padding-right: 5px;
+//   color: blue;
+// }
+// .readmore:hover {
+//   color: black;
+// }
